@@ -3,25 +3,238 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World</title>
+  <title>UK Military Air Weapons Ranges</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
-    body {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-color: #f0f0f0;
-      font-family: sans-serif;
-    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #fff; color: #222; }
 
-    h1 {
-      font-size: 3rem;
-      color: #333;
+    #topbar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 16px;
+      background: #1a1a2e;
+      color: #fff;
+      flex-wrap: wrap;
     }
+    #topbar h1 { font-size: 1rem; font-weight: 600; flex: 1; white-space: nowrap; }
+    #postcode-form { display: flex; gap: 8px; }
+    #postcode-input {
+      padding: 7px 11px;
+      border: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      width: 190px;
+    }
+    #postcode-form button {
+      padding: 7px 14px;
+      background: #4e9af1;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    #postcode-form button:hover { background: #2d7ed4; }
+    #postcode-form button:disabled { opacity: 0.6; cursor: default; }
+
+    #status-box {
+      display: none;
+      padding: 12px 16px;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      border-left: 5px solid transparent;
+    }
+    #status-box.green { background: #d4edda; border-color: #28a745; color: #155724; }
+    #status-box.amber { background: #fff3cd; border-color: #e0a800; color: #6d4c00; }
+    #status-box.red   { background: #f8d7da; border-color: #dc3545; color: #721c24; }
+
+    #map { height: 70vh; }
+
+    .popup-season { font-size: 0.75rem; color: #666; margin: 6px 0 2px; font-style: italic; }
+    .popup-table { border-collapse: collapse; width: 100%; font-size: 0.82rem; }
+    .popup-table td { padding: 1px 6px 1px 0; }
+    .popup-table tr:nth-child(even) td { background: #f5f5f5; }
+    .popup-note { font-size: 0.82rem; color: #555; margin-top: 6px; font-style: italic; }
+    .leaflet-popup-content { min-width: 210px; max-height: 260px; overflow-y: auto; }
   </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
+  <div id="topbar">
+    <h1>UK Military Air Weapons Ranges</h1>
+    <div id="postcode-form">
+      <input id="postcode-input" type="text" placeholder="Postcode, e.g. LN12 2QP" />
+      <button id="lookup-btn" onclick="lookupPostcode()">Find nearest range</button>
+    </div>
+  </div>
+
+  <div id="status-box"></div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // ── Map setup ──────────────────────────────────────────────
+    const map = L.map('map').setView([55.5, -3.5], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // ── Schedule popup builder ─────────────────────────────────
+    function buildScheduleHtml(schedule) {
+      if (!schedule || schedule.length === 0) return '';
+      const groups = new Map();
+      schedule.forEach(e => {
+        const key = e.notes || '';
+        if (!groups.has(key)) groups.set(key, []);
+        if (e.day) groups.get(key).push(e);
+      });
+      let html = '';
+      for (const [season, entries] of groups) {
+        if (entries.length === 0) {
+          html += `<p class="popup-note">${season}</p>`;
+          continue;
+        }
+        if (season) html += `<p class="popup-season">${season}</p>`;
+        html += '<table class="popup-table">';
+        entries.forEach(e => {
+          const times = e.open ? `${e.open}–${e.close}` : 'Closed';
+          html += `<tr><td>${e.day}</td><td>${times}</td></tr>`;
+        });
+        html += '</table>';
+      }
+      return html;
+    }
+
+    // ── Haversine distance (km) ────────────────────────────────
+    function haversineKm(lat1, lon1, lat2, lon2) {
+      const R = 6371;
+      const toRad = x => x * Math.PI / 180;
+      const dLat = toRad(lat2 - lat1);
+      const dLon = toRad(lon2 - lon1);
+      const a = Math.sin(dLat / 2) ** 2 +
+                Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+      return 2 * R * Math.asin(Math.sqrt(a));
+    }
+
+    // ── Schedule activity helpers ──────────────────────────────
+    function isSummer(month) { return month >= 5 && month <= 8; }
+
+    function seasonMatches(notes, month) {
+      const n = (notes || '').toLowerCase();
+      if (n.includes('summer') || n.includes('bst')) return isSummer(month);
+      if (n.includes('winter') || n.includes('gmt')) return !isSummer(month);
+      return true; // year-round or empty
+    }
+
+    function getTodaysEntry(schedule, now) {
+      const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+      const dayName = days[now.getDay()];
+      const month = now.getMonth() + 1; // JS months are 0-indexed
+      return schedule.find(e => e.day === dayName && seasonMatches(e.notes, month)) || null;
+    }
+
+    function hasActivityToday(schedule, now) {
+      const entry = getTodaysEntry(schedule, now);
+      return entry !== null && Boolean(entry.open);
+    }
+
+    // ── Inline data (avoids fetch() CORS block on file:// protocol) ───
+    const locations = [{"name": "Donna Nook", "schedule": [{"day": "Monday", "open": "09:00", "close": "16:30", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Tuesday", "open": "09:00", "close": "16:30", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Wednesday", "open": "09:00", "close": "16:30", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Thursday", "open": "09:00", "close": "16:30", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Friday", "open": "09:00", "close": "15:00", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Saturday", "open": "", "close": "", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Sunday", "open": "", "close": "", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Monday", "open": "09:00", "close": "22:00", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Tuesday", "open": "09:00", "close": "16:30", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Wednesday", "open": "09:00", "close": "22:00", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Thursday", "open": "09:00", "close": "16:30", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Friday", "open": "09:00", "close": "15:00", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Saturday", "open": "", "close": "", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Sunday", "open": "", "close": "", "notes": "Winter activity hours 1 September to 30 April"}], "lat": 53.4733156, "lon": 0.1501702}, {"name": "Holbeach", "schedule": [{"day": "Monday", "open": "09:00", "close": "17:00", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Tuesday", "open": "09:00", "close": "17:00", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Wednesday", "open": "09:00", "close": "17:00", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Thursday", "open": "09:00", "close": "17:00", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Friday", "open": "09:00", "close": "12:00", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Saturday", "open": "", "close": "", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Sunday", "open": "", "close": "", "notes": "Summer activity hours 1 May to 31 August"}, {"day": "Monday", "open": "09:00", "close": "17:00", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Tuesday", "open": "09:00", "close": "22:00", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Wednesday", "open": "09:00", "close": "17:00", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Thursday", "open": "09:00", "close": "22:00", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Friday", "open": "09:00", "close": "12:00", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Saturday", "open": "", "close": "", "notes": "Winter activity hours 1 September to 30 April"}, {"day": "Sunday", "open": "", "close": "", "notes": "Winter activity hours 1 September to 30 April"}], "lat": 52.80421, "lon": 0.0180043}, {"name": "Pembrey Sands", "schedule": [{"day": "Monday", "open": "09:00", "close": "17:00", "notes": "Summer activity hours (BST)"}, {"day": "Tuesday", "open": "09:00", "close": "17:00", "notes": "Summer activity hours (BST)"}, {"day": "Wednesday", "open": "09:00", "close": "17:00", "notes": "Summer activity hours (BST)"}, {"day": "Thursday", "open": "09:00", "close": "17:00", "notes": "Summer activity hours (BST)"}, {"day": "Friday", "open": "09:00", "close": "14:00", "notes": "Summer activity hours (BST)"}, {"day": "Saturday", "open": "", "close": "", "notes": "Summer activity hours (BST)"}, {"day": "Sunday", "open": "", "close": "", "notes": "Summer activity hours (BST)"}, {"day": "Monday", "open": "09:00", "close": "16:00", "notes": "Winter activity hours (GMT)"}, {"day": "Tuesday", "open": "09:00", "close": "16:00", "notes": "Winter activity hours (GMT)"}, {"day": "Wednesday", "open": "09:00", "close": "16:00", "notes": "Winter activity hours (GMT)"}, {"day": "Thursday", "open": "09:00", "close": "16:00", "notes": "Winter activity hours (GMT)"}, {"day": "Friday", "open": "09:00", "close": "14:00", "notes": "Winter activity hours (GMT)"}, {"day": "Saturday", "open": "", "close": "", "notes": "Winter activity hours (GMT)"}, {"day": "Sunday", "open": "", "close": "", "notes": "Winter activity hours (GMT)"}], "lat": 51.7217999, "lon": -4.3493901}, {"name": "Tain", "schedule": [{"day": "Monday", "open": "09:00", "close": "22:00", "notes": "Year round activity hours"}, {"day": "Tuesday", "open": "09:00", "close": "22:00", "notes": "Year round activity hours"}, {"day": "Wednesday", "open": "09:00", "close": "22:00", "notes": "Year round activity hours"}, {"day": "Thursday", "open": "09:00", "close": "22:00", "notes": "Year round activity hours"}, {"day": "Friday", "open": "09:00", "close": "14:00", "notes": "Year round activity hours"}, {"day": "Saturday", "open": "", "close": "", "notes": "Year round activity hours"}, {"day": "Sunday", "open": "", "close": "", "notes": "Year round activity hours"}], "lat": 57.8119372, "lon": -4.0550663}, {"name": "Cape Wrath", "schedule": [{"day": "", "open": "", "close": "", "notes": "No fixed activity hours, the range is used when there is a requirement. Please checkScotland firing timesfor updates."}], "lat": 58.6260858, "lon": -4.999687}];
+
+    // ── Place markers ──────────────────────────────────────────
+    let userMarker = null;
+    let rangeLine  = null;
+
+    locations.forEach(loc => {
+      if (loc.lat === null) return;
+      const content = `<strong>${loc.name}</strong>${buildScheduleHtml(loc.schedule)}`;
+      L.marker([loc.lat, loc.lon]).addTo(map).bindPopup(content);
+    });
+
+    // ── Postcode lookup ────────────────────────────────────────
+    async function lookupPostcode() {
+      const postcode = document.getElementById('postcode-input').value.trim();
+      if (!postcode) return;
+
+      const btn = document.getElementById('lookup-btn');
+      btn.textContent = 'Looking up…';
+      btn.disabled = true;
+
+      try {
+        // 1. Resolve postcode to lat/lon
+        const pcRes = await fetch(
+          `https://api.postcodes.io/postcodes/${encodeURIComponent(postcode.replace(/\s+/g, ''))}`
+        );
+        const pcData = await pcRes.json();
+        if (pcData.status !== 200) { alert('Invalid or unknown postcode.'); return; }
+
+        const userLat = pcData.result.latitude;
+        const userLon = pcData.result.longitude;
+        const now = new Date();
+
+        // 2. Calculate distances to all geocoded ranges
+        const candidates = locations
+          .filter(loc => loc.lat !== null)
+          .map(loc => ({ ...loc, distanceKm: haversineKm(userLat, userLon, loc.lat, loc.lon) }));
+
+        if (candidates.length === 0) { alert('No range data available.'); return; }
+
+        // 3. Find nearest
+        const nearest = candidates.reduce((a, b) => a.distanceKm < b.distanceKm ? a : b);
+        const distKm = Math.round(nearest.distanceKm * 10) / 10;
+        const active = hasActivityToday(nearest.schedule, now);
+        const todaysEntry = getTodaysEntry(nearest.schedule, now);
+        const todayHours = (todaysEntry && todaysEntry.open)
+          ? `${todaysEntry.open}–${todaysEntry.close}` : null;
+
+        // 4. Determine status
+        let status, message;
+        if (distKm > 50) {
+          status = 'green';
+          message = 'No planned military training activity in your area.';
+        } else if (!active) {
+          status = 'amber';
+          message = `You are near <strong>${nearest.name}</strong> (${distKm} km away) but there is no activity planned for today.`;
+        } else {
+          status = 'red';
+          const hoursStr = todayHours ? ` (${todayHours})` : '';
+          message = `Military training activity is happening in your area today! <strong>${nearest.name}</strong> is ${distKm} km away and active${hoursStr}.`;
+        }
+
+        // 5. Update status box
+        const box = document.getElementById('status-box');
+        box.className = status;
+        box.innerHTML = message;
+        box.style.display = 'block';
+
+        // 6. Update map overlays
+        if (userMarker) map.removeLayer(userMarker);
+        if (rangeLine)  map.removeLayer(rangeLine);
+
+        userMarker = L.circleMarker([userLat, userLon], {
+          radius: 9, color: '#1a6ed8', fillColor: '#4e9af1', fillOpacity: 0.9, weight: 2
+        }).addTo(map).bindPopup(`<strong>Your location</strong><br>${postcode.toUpperCase()}`);
+
+        rangeLine = L.polyline(
+          [[userLat, userLon], [nearest.lat, nearest.lon]],
+          { color: '#e63946', weight: 2, dashArray: '6 4' }
+        ).addTo(map);
+
+        map.fitBounds([[userLat, userLon], [nearest.lat, nearest.lon]], { padding: [60, 60] });
+
+      } catch (e) {
+        alert('Request failed: ' + e.message);
+      } finally {
+        btn.textContent = 'Find nearest range';
+        btn.disabled = false;
+      }
+    }
+
+    document.getElementById('postcode-input').addEventListener('keydown', e => {
+      if (e.key === 'Enter') lookupPostcode();
+    });
+  </script>
 </body>
 </html>
