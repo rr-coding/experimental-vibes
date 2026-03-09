@@ -1,0 +1,3281 @@
+[
+  {
+    "name": "Donna Nook",
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "15:00",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": "",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": "",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "22:00",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "22:00",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "15:00",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": "",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": "",
+        "notes": "Winter activity hours 1 September to 30 April"
+      }
+    ]
+  },
+  {
+    "name": "Holbeach",
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "12:00",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": "",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": "",
+        "notes": "Summer activity hours 1 May to 31 August"
+      },
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "22:00",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "22:00",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "12:00",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": "",
+        "notes": "Winter activity hours 1 September to 30 April"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": "",
+        "notes": "Winter activity hours 1 September to 30 April"
+      }
+    ]
+  },
+  {
+    "name": "Pembrey Sands",
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Summer activity hours (BST)"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Summer activity hours (BST)"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Summer activity hours (BST)"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "Summer activity hours (BST)"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "14:00",
+        "notes": "Summer activity hours (BST)"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": "",
+        "notes": "Summer activity hours (BST)"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": "",
+        "notes": "Summer activity hours (BST)"
+      },
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "Winter activity hours (GMT)"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "Winter activity hours (GMT)"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "Winter activity hours (GMT)"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "Winter activity hours (GMT)"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "14:00",
+        "notes": "Winter activity hours (GMT)"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": "",
+        "notes": "Winter activity hours (GMT)"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": "",
+        "notes": "Winter activity hours (GMT)"
+      }
+    ]
+  },
+  {
+    "name": "Tain",
+    "schedule": [
+      {
+        "day": "Monday",
+        "open": "09:00",
+        "close": "22:00",
+        "notes": "Year round activity hours"
+      },
+      {
+        "day": "Tuesday",
+        "open": "09:00",
+        "close": "22:00",
+        "notes": "Year round activity hours"
+      },
+      {
+        "day": "Wednesday",
+        "open": "09:00",
+        "close": "22:00",
+        "notes": "Year round activity hours"
+      },
+      {
+        "day": "Thursday",
+        "open": "09:00",
+        "close": "22:00",
+        "notes": "Year round activity hours"
+      },
+      {
+        "day": "Friday",
+        "open": "09:00",
+        "close": "14:00",
+        "notes": "Year round activity hours"
+      },
+      {
+        "day": "Saturday",
+        "open": "",
+        "close": "",
+        "notes": "Year round activity hours"
+      },
+      {
+        "day": "Sunday",
+        "open": "",
+        "close": "",
+        "notes": "Year round activity hours"
+      }
+    ]
+  },
+  {
+    "name": "Cape Wrath",
+    "schedule": [
+      {
+        "day": "",
+        "open": "",
+        "close": "",
+        "notes": "No fixed activity hours, the range is used when there is a requirement. Please checkScotland firing timesfor updates."
+      }
+    ]
+  },
+  {
+    "name": "Lulworth",
+    "schedule": [
+      {
+        "date": "2026-03-02",
+        "day": "2 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-03",
+        "day": "3 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-03",
+        "day": "3 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-04",
+        "day": "4 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-05",
+        "day": "5 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-05",
+        "day": "5 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-06",
+        "day": "6 Mar",
+        "open": "09:30",
+        "close": "12:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-15",
+        "day": "15 Mar",
+        "open": "09:30",
+        "close": "13:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "09:30",
+        "close": "12:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "09:30",
+        "close": "12:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-04-01",
+        "day": "1 Apr",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-04-02",
+        "day": "2 Apr",
+        "open": "09:30",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-04-02",
+        "day": "2 Apr (night)",
+        "open": "20:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-04-03",
+        "day": "3 Apr",
+        "open": "09:30",
+        "close": "12:30",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 50.6412,
+    "lon": -2.2327
+  },
+  {
+    "name": "Garelochhead Range",
+    "schedule": [
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-15",
+        "day": "15 Mar",
+        "open": "09:00",
+        "close": "14:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "09:00",
+        "close": "23:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "09:00",
+        "close": "23:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-28",
+        "day": "28 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-29",
+        "day": "29 Mar",
+        "open": "09:00",
+        "close": "14:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "09:00",
+        "close": "23:00",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 56.03,
+    "lon": -4.77
+  },
+  {
+    "name": "Castlemartin Range",
+    "schedule": [
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "07:30",
+        "close": "16:45",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.63,
+    "lon": -4.93
+  },
+  {
+    "name": "Sennybridge Range",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "00:01",
+        "close": "00:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "08:30",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "08:30",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "00:01",
+        "close": "00:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "08:30",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "00:01",
+        "close": "00:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "08:30",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "08:30",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "00:01",
+        "close": "00:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "08:30",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "00:01",
+        "close": "00:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "08:30",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "00:01",
+        "close": "00:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "08:30",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "08:30",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "00:01",
+        "close": "00:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "08:30",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "00:01",
+        "close": "00:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "08:30",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "08:30",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.95,
+    "lon": -3.6
+  },
+  {
+    "name": "Battle Hill Ranges (Catterick)",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "09:00",
+        "close": "12:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 54.37,
+    "lon": -1.62
+  },
+  {
+    "name": "Bellerby Ranges (Catterick)",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "09:00",
+        "close": "15:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "09:00",
+        "close": "15:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 54.35,
+    "lon": -1.77
+  },
+  {
+    "name": "Feldom Ranges (Catterick)",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "09:00",
+        "close": "15:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "09:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "09:00",
+        "close": "15:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "08:30",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 54.42,
+    "lon": -1.7
+  },
+  {
+    "name": "Otterburn Range",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-15",
+        "day": "15 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-28",
+        "day": "28 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-29",
+        "day": "29 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "09:00",
+        "close": "17:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 55.26,
+    "lon": -2.15
+  },
+  {
+    "name": "Ponteland Range",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-15",
+        "day": "15 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-28",
+        "day": "28 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-29",
+        "day": "29 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "09:00",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "09:00",
+        "close": "23:59",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 55.04,
+    "lon": -1.74
+  },
+  {
+    "name": "Thetford Range",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-15",
+        "day": "15 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-29",
+        "day": "29 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 52.42,
+    "lon": 0.74
+  },
+  {
+    "name": "Fingringhoe Range",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-15",
+        "day": "15 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-28",
+        "day": "28 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-29",
+        "day": "29 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.85,
+    "lon": 0.94
+  },
+  {
+    "name": "Barton Road Range",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-15",
+        "day": "15 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-28",
+        "day": "28 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-29",
+        "day": "29 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 52.49,
+    "lon": 0.67
+  },
+  {
+    "name": "Beckingham Range",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-14",
+        "day": "14 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-15",
+        "day": "15 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-28",
+        "day": "28 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-29",
+        "day": "29 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 53.41,
+    "lon": -0.79
+  },
+  {
+    "name": "Aldershot Range",
+    "schedule": [
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "Closed",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "08:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "08:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "08:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "08:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "08:00",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.25,
+    "lon": -0.77
+  },
+  {
+    "name": "Ash Ranges",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "07:45",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "07:45",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "07:45",
+        "close": "16:00",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "07:45",
+        "close": "16:30",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.26,
+    "lon": -0.68
+  },
+  {
+    "name": "Willsworthy Range",
+    "schedule": [
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-04-07",
+        "day": "7 Apr",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-04-08",
+        "day": "8 Apr",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-04-09",
+        "day": "9 Apr",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-04-10",
+        "day": "10 Apr",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-04-11",
+        "day": "11 Apr",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-04-12",
+        "day": "12 Apr",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      }
+    ],
+    "lat": 50.59,
+    "lon": -4.07
+  },
+  {
+    "name": "Merrivale Range",
+    "schedule": [
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "April 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "April 2026 firing times"
+      }
+    ],
+    "lat": 50.55,
+    "lon": -4.04
+  },
+  {
+    "name": "Larkhill Range (SPTA)",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.2,
+    "lon": -1.79
+  },
+  {
+    "name": "Bulford Range (SPTA)",
+    "schedule": [
+      {
+        "date": "2026-03-08",
+        "day": "8 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-13",
+        "day": "13 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-27",
+        "day": "27 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.18,
+    "lon": -1.71
+  },
+  {
+    "name": "Warminster Range (SPTA)",
+    "schedule": [
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day/ Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-22",
+        "day": "22 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.2,
+    "lon": -2.18
+  },
+  {
+    "name": "Chitterne/Areas 6\u20138 (SPTA)",
+    "schedule": [
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day/Night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "Day",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 51.13,
+    "lon": -2.04
+  },
+  {
+    "name": "Straight Point Range",
+    "schedule": [
+      {
+        "date": "2026-03-09",
+        "day": "9 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-10",
+        "day": "10 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-11",
+        "day": "11 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-12",
+        "day": "12 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-16",
+        "day": "16 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-17",
+        "day": "17 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-18",
+        "day": "18 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-19",
+        "day": "19 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-20",
+        "day": "20 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-21",
+        "day": "21 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-23",
+        "day": "23 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-24",
+        "day": "24 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-25",
+        "day": "25 Mar",
+        "open": "Day and night",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-26",
+        "day": "26 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-30",
+        "day": "30 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      },
+      {
+        "date": "2026-03-31",
+        "day": "31 Mar",
+        "open": "Day firing",
+        "close": "",
+        "notes": "March 2026 firing times"
+      }
+    ],
+    "lat": 50.62,
+    "lon": -3.4
+  }
+]
