@@ -18,3 +18,5 @@ This code does a one-time scrape of the data and then generates a standalone hmm
 Hence the data is a snapshot, it is not live
 
 This is a personal learning project and not associated with GOV.UK, UK government or UK forces.
+
+CLAUDE.md gives the description that you can use to prompt Claude Code yourself.
